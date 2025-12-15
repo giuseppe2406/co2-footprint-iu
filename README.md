@@ -1,1 +1,1 @@
-# co2-footprint-iu
+# CO₂-footprint-iu
