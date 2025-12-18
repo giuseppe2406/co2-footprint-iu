@@ -1,5 +1,3 @@
-"use strict";
-
 let sortState = {
     columnIndex: 0,
     ascending: true
@@ -15,7 +13,7 @@ function getCellText(row, cellIndex) {
 }
 
 function sanitizeForSearch(value) {
-    // Wir arbeiten nur mit Text. Keine HTML-Ausgabe, keine Interpretation.
+   
     return normalizeText(value).replace(/[<>]/g, "");
 }
 
@@ -39,7 +37,7 @@ function sortTable(columnIndex) {
     const tbody = document.getElementById("tableBody");
     const rows = Array.from(tbody.querySelectorAll("tr"));
 
-    // Sort-Richtung umschalten, wenn gleiche Spalte erneut geklickt wird
+    // Sortiert Richtung umschalten, wenn gleiche Spalte erneut geklickt wird
     if (sortState.columnIndex === columnIndex) {
         sortState.ascending = !sortState.ascending;
     } else {
@@ -53,8 +51,8 @@ function sortTable(columnIndex) {
 
         // Spalte 2 ist Zahl (CO2)
         if (columnIndex === 2) {
-            const aNum = Number(aText);
-            const bNum = Number(bText);
+            const aNum = Number(String(aText).replace(/[^\d.-]/g, ""));
+            const bNum = Number(String(bText).replace(/[^\d.-]/g, ""));
             return sortState.ascending ? aNum - bNum : bNum - aNum;
         }
 
