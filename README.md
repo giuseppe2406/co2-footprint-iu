@@ -43,8 +43,7 @@ rechtlich verbindlich.
 
 ## Projektkontext
 
-Diese Webanwendung wurde im Rahmen eines Studienprojekts an der  
-IU Internationale Hochschule erstellt.
+Diese Webanwendung wurde im Rahmen eines Studienzwecks an der IU Internationale Hochschule erstellt.
 
 ## Autor 
 Giuseppe Bivona 
