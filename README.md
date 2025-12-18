@@ -19,12 +19,6 @@ dient der Demonstration grundlegender Funktionen einer interaktiven Website.
 - Bootstrap 5.3
 - JavaScript (Vanilla JS)
 
-## Nutzung
-
-1. Repository klonen oder herunterladen  
-2. Datei `index.html` im Browser öffnen  
-3. Es ist keine zusätzliche Installation erforderlich  
-
 ## Projektstruktur
 
 - `index.html` – Hauptseite der Webanwendung
@@ -33,6 +27,13 @@ dient der Demonstration grundlegender Funktionen einer interaktiven Website.
 - `impressum.html` – Impressum (Studienprojekt)
 - `datenschutz.html` – Datenschutzerklärung (Studienprojekt)
 - `logo.png`, `banner.png` – Grafische Elemente
+
+## Nutzung
+
+1. Repository klonen oder herunterladen  
+2. Datei `index.html` im Browser öffnen  
+3. Es ist keine zusätzliche Installation erforderlich  
+  
 
 ## Hinweise
 
