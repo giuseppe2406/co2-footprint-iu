@@ -76,6 +76,11 @@ main {
     border-radius: 10px;
 }
 
+.local-menu.rtl {
+    margin-left: auto;
+    text-align: right;
+} 
+
 .table-wrap {
     overflow-x: auto;
 }
